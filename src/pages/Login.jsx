@@ -124,12 +124,36 @@ const Login = () => {
 
         <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '12px' }}>
           <button 
+            type="button"
             onClick={handleGoogleLogin}
-            className="btn btn-secondary" 
-            style={{ width: '100%', gap: '12px' }}
+            style={{ 
+              width: '100%', 
+              display: 'flex', 
+              alignItems: 'center', 
+              justifyContent: 'center',
+              gap: '12px',
+              padding: '14px',
+              backgroundColor: '#FFFFFF',
+              color: '#3C4043',
+              border: '1px solid #DADCE0',
+              borderRadius: 'var(--radius-md)',
+              fontSize: '1.05rem',
+              fontWeight: '500',
+              cursor: 'pointer',
+              boxShadow: '0 1px 2px rgba(0,0,0,0.05)',
+              transition: 'all 0.2s ease'
+            }}
+            onMouseOver={(e) => {
+              e.currentTarget.style.backgroundColor = '#F8F9FA';
+              e.currentTarget.style.boxShadow = '0 1px 3px rgba(0,0,0,0.08)';
+            }}
+            onMouseOut={(e) => {
+              e.currentTarget.style.backgroundColor = '#FFFFFF';
+              e.currentTarget.style.boxShadow = '0 1px 2px rgba(0,0,0,0.05)';
+            }}
           >
-            <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google" style={{ width: '18px' }} />
-            Google
+            <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google" style={{ width: '20px', height: '20px' }} />
+            Continue with Google
           </button>
         </div>
 
