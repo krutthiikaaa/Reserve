@@ -1,16 +1,5 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<img width="945" height="433" alt="image" src="https://github.com/user-attachments/assets/ff8e7544-15ef-48e4-b0d3-1af6bbc962ae" />
+<img width="946" height="437" alt="image" src="https://github.com/user-attachments/assets/3c748433-e61b-48d6-bdd1-ab482bbc3fbc" />
+<img width="937" height="434" alt="image" src="https://github.com/user-attachments/assets/7fa8f698-513a-400c-8570-dfa9d01f0490" />
+<img width="947" height="434" alt="image" src="https://github.com/user-attachments/assets/9c68856b-8fbd-4b57-bbfd-36e4ead7d4e8" />
+Reserve is a modern restaurant discovery and reservation platform built with React.js. Users can explore restaurants, browse menus, discover trending dishes, filter by cuisines, book dining slots, and manage favorites through a clean and responsive user interface. The application also includes location-based restaurant discovery, voice search, AI chatbot assistance, and dark/light theme support.
